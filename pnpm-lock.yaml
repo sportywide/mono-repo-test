@@ -319,7 +319,7 @@ packages:
       read-pkg: 5.2.0
       registry-auth-token: 4.1.1
       semantic-release: 17.0.4_semantic-release@17.0.4
-      semver: 7.3.0
+      semver: 7.3.2
       tempy: 0.4.0
     dev: true
     engines:
@@ -328,29 +328,6 @@ packages:
       semantic-release: '>=16.0.0 <18.0.0'
     resolution:
       integrity: sha512-3wOXMtAdJkaAnW5183iSmWSimtUmOx7m6g/DWPYRs2Gq6iyB+ztMmhgwbn6luNcM9t6pGbgHvRPEXpWkygMxCA==
-  /@semantic-release/npm/7.0.5_semantic-release@17.0.4:
-    dependencies:
-      '@semantic-release/error': 2.2.0
-      aggregate-error: 3.0.1
-      execa: 4.0.0
-      fs-extra: 9.0.0
-      lodash: 4.17.15
-      nerf-dart: 1.0.0
-      normalize-url: 5.0.0
-      npm: 6.14.4
-      rc: 1.2.8
-      read-pkg: 5.2.0
-      registry-auth-token: 4.1.1
-      semantic-release: 17.0.4_semantic-release@17.0.4
-      semver: 7.3.0
-      tempy: 0.5.0
-    dev: true
-    engines:
-      node: '>=10.18'
-    peerDependencies:
-      semantic-release: '>=16.0.0 <18.0.0'
-    resolution:
-      integrity: sha512-D+oEmsx9aHE1q806NFQwSC9KdBO8ri/VO99eEz0wWbX2jyLqVyWr7t0IjKC8aSnkkQswg/4KN/ZjfF6iz1XOpw==
   /@semantic-release/release-notes-generator/9.0.1_semantic-release@17.0.4:
     dependencies:
       conventional-changelog-angular: 5.0.6
@@ -756,10 +733,10 @@ packages:
       node: '>= 0.2.0'
     resolution:
       integrity: sha1-9TsFJmqLGguTSz0IIebi3FkUriM=
-  /cli-width/2.2.0:
+  /cli-width/2.2.1:
     dev: true
     resolution:
-      integrity: sha1-/xnt6Kml5XkyQUewwR8PvLq+1jk=
+      integrity: sha512-GRMWDxpOB6Dgk2E5Uo+3eEBvtOOlimMmpbFiKuLFnQzYDavtLFY3K5ona41jgN/WdRZtG7utuVSVTL4HbZHGkw==
   /cliui/6.0.0:
     dependencies:
       string-width: 4.2.0
@@ -1737,7 +1714,7 @@ packages:
       ansi-escapes: 3.2.0
       chalk: 2.4.2
       cli-cursor: 2.1.0
-      cli-width: 2.2.0
+      cli-width: 2.2.1
       external-editor: 3.1.0
       figures: 2.0.0
       lodash: 4.17.15
@@ -3146,7 +3123,7 @@ packages:
       '@semantic-release/commit-analyzer': 8.0.1_semantic-release@17.0.4
       '@semantic-release/error': 2.2.0
       '@semantic-release/github': 7.0.5_semantic-release@17.0.4
-      '@semantic-release/npm': 7.0.5_semantic-release@17.0.4
+      '@semantic-release/npm': 7.0.3_semantic-release@17.0.4
       '@semantic-release/release-notes-generator': 9.0.1_semantic-release@17.0.4
       aggregate-error: 3.0.1
       cosmiconfig: 6.0.0
@@ -3167,7 +3144,7 @@ packages:
       p-reduce: 2.1.0
       read-pkg-up: 7.0.1
       resolve-from: 5.0.0
-      semver: 7.3.0
+      semver: 7.3.2
       semver-diff: 3.1.1
       signale: 1.4.0
       yargs: 15.3.1
@@ -3203,13 +3180,13 @@ packages:
     hasBin: true
     resolution:
       integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==
-  /semver/7.3.0:
+  /semver/7.3.2:
     dev: true
     engines:
       node: '>=10'
     hasBin: true
     resolution:
-      integrity: sha512-uyvgU/igkrMgNHwLgXvlpD9jEADbJhB0+JXSywoO47JgJ6c16iau9F9cjtc/E5o0PoqRYTiTIAPRKaYe84z6eQ==
+      integrity: sha512-OrOb32TeeambH6UrhtShmF7CRDqhL6/5XpPNp2DuRH6+9QLw/orhp72j87v8Qa1ScDkvrrBNpZcDejAirJmfXQ==
   /set-blocking/2.0.0:
     dev: true
     resolution:
@@ -3554,17 +3531,6 @@ packages:
       node: '>=10'
     resolution:
       integrity: sha512-mKnScm8aXv+cG6l1Nzp6mERGgC4UblbPnSDeQp83JgZ7xqDcnl+7u3+6zXnf1UE7YluDUTEIna1iKYwCSaOk9g==
-  /tempy/0.5.0:
-    dependencies:
-      is-stream: 2.0.0
-      temp-dir: 2.0.0
-      type-fest: 0.12.0
-      unique-string: 2.0.0
-    dev: true
-    engines:
-      node: '>=10'
-    resolution:
-      integrity: sha512-VEY96x7gbIRfsxqsafy2l5yVxxp3PhwAGoWMyC2D2Zt5DmEv+2tGiPOrquNRpf21hhGnKLVEsuqleqiZmKG/qw==
   /text-extensions/1.9.0:
     dev: true
     engines:
@@ -3664,12 +3630,6 @@ packages:
       node: '>=8'
     resolution:
       integrity: sha512-OdjXJxnCN1AvyLSzeKIgXTXxV+99ZuXl3Hpo9XpJAv9MBcHrrJOQ5kV7ypXOuQie+AmWG25hLbiKdwYTifzcfQ==
-  /type-fest/0.12.0:
-    dev: true
-    engines:
-      node: '>=10'
-    resolution:
-      integrity: sha512-53RyidyjvkGpnWPMF9bQgFtWp+Sl8O2Rp13VavmJgfAP9WWG6q6TkrKU8iyJdnwnfgHI6k2hTlgqH4aSdjoTbg==
   /type-fest/0.6.0:
     dev: true
     engines:
