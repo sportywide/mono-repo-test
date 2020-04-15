@@ -1,5 +1,5 @@
 {
-  "name": "@vdtn359/c",
+  "name": "@vdtn359/package-c",
   "version": "0.0.0-development",
   "description": "",
   "main": "index.js",
@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
-    "@vdtn359/b": "workspace:*"
+    "@vdtn359/package-b": "workspace:*"
   },
   "keywords": [],
   "author": "",

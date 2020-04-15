@@ -26,14 +26,14 @@ importers:
     specifiers: {}
   packages/b:
     dependencies:
-      '@vdtn359/a': 'link:../c'
+      '@vdtn359/package-a': 'link:../a'
     specifiers:
-      '@vdtn359/a': 'workspace:*'
+      '@vdtn359/package-a': 'workspace:*'
   packages/c:
     dependencies:
-      '@vdtn359/b': 'link:../b'
+      '@vdtn359/package-b': 'link:../b'
     specifiers:
-      '@vdtn359/b': 'workspace:*'
+      '@vdtn359/package-b': 'workspace:*'
 lockfileVersion: 5.1
 packages:
   /@babel/code-frame/7.8.3:
