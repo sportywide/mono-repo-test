@@ -1,3 +1,10 @@
+# [@vdtn359/package-c-v1.0.1](https://github.com/sportywide/mono-repo-test/compare/@vdtn359/package-c-v1.0.0...@vdtn359/package-c-v1.0.1) (2020-04-15)
+
+
+### Bug Fixes
+
+* **c:** test c ([5bd9426](https://github.com/sportywide/mono-repo-test/commit/5bd9426ee79f5b7f80b531fa2847c354bd9aea86))
+
 # @vdtn359/package-c-v1.0.0 (2020-04-15)
 
 
